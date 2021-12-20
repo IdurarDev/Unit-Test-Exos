@@ -1,9 +1,7 @@
-function even_or_odd(n) {
+export function isEven(n) {
   if (n % 2 == 0) {
     return 'Even'
-  } else {
+  } else if (!n % 2 == 0) {
     return 'Odd'
   }
 }
-
-console.log(even_or_odd());
