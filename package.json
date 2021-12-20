@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx c8 mocha"
+    "test": "c8 mocha"
   },
   "keywords": [],
   "author": "",
