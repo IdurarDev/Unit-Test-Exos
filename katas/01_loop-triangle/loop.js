@@ -1,8 +1,15 @@
-// let triangle = ["#", "##", "###", "####", "#####", "######", "#######"];
-// for (let i = 0; i < triangle.length; i++) {
-//   console.log(triangle[i]);
-// }
-let tr = ''
-for (let i = 0; i < 7; i++) {
-  console.log(tr += '#')
+export function loop (triangle) {
+  triangle = ''
+  let arr = []
+  for (let i = 0; i < 7; i++) {
+    triangle += '#'
+    arr.push(triangle)
+  }
+  return arr
 }
+// export function loop (triangle) {
+//   triangle = ''
+//   for (let i = 0; i < 7; i++) {
+//     console.log(triangle += '#')
+//   }
+// }
