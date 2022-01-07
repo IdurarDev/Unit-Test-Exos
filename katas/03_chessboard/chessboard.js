@@ -1,28 +1,14 @@
-// ```
-//  # # # #
-// # # # #
-//  # # # #
-// # # # #
-//  # # # #
-// # # # #
-//  # # # #
-// # # # #
-
-// ```
-
 function chess (size) {
-  let r = '' 
+  let result = '' 
   for (let i = 0; i <= size; i++) {
     for (let j = 0; j <= size; j++) {
       if ((i+j) % 2 == 0) {
-        r += '#';
+        result += '#';
       } else {
-        r += ' ';
+        result += ' ';
       }
     }
-    r += '\n'
+    result += '\n'
   }
-  return r
+  return result
 }
-
-chess(8)
